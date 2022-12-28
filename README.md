@@ -1,5 +1,8 @@
 # Abdellaoui_Naziha_P7_KASA
-créer une application web de location immobilière avec React
+Application web de location immobilière avec React
+A renting apartment's web site app with React
+
+*********************************************************************************************************
 Getting Started with Create React App
 This project was bootstrapped with Create React App.
 
@@ -20,3 +23,4 @@ See the section about running tests for more information.
 npm run build
 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
+************************************************************************************************
