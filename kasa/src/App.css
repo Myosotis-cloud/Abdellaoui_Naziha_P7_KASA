@@ -1,11 +1,12 @@
-.Layout{
-  padding: 0;
+* {
   margin: 0;
-  height: 100vh;
-  width: 100vw;
+  box-sizing: border-box;
 }
 
-#root{
-  font-family: 'Montserrat', sans-serif;
-  /* font-family: 'BhuTuka Expanded One', cursive; */
+body {
+    font-family: 'Monsterrat', sans-serif;
+}
+
+#root {
+  height: auto;
 }

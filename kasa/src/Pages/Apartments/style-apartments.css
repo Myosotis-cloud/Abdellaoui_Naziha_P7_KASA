@@ -1,0 +1,146 @@
+/* ----------------Mobile 1st --------------- */
+.Apt_Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information_apartment_hostAndRate {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.apartment_tags_container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.apartment_tags {
+    background-color: #FF6060;
+    color: white;
+    width: 84px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+.location_details{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px 0;
+}
+
+.title_location_tags {
+    color: #FF6060;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    }
+.apartment_location{
+    font-weight: 500;
+}
+
+.apartment_title {
+    font-size: 1.3em;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: normal;
+   }
+
+.hostAndrate_Container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+ 
+}
+
+.host_name {
+    width: min-content;
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: right;
+    color: #FF6060;
+}
+
+.photo_hote {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: #C4C4C4;
+    box-shadow: 1px 0 0 2px #C4C4C4;
+}
+
+.collapse_container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+.apartment_collapse {
+    width: 100%;
+}
+
+.apartment_collapse_about {
+    width: 100%;
+}
+
+/* -------------------Desktop ------------------- */
+@media screen and (min-width:768px){
+   
+
+    .photo_hote {
+        width: 64px;
+        height: 64px;
+    }
+
+    .host_name {
+        font-size: 20px;
+    }
+
+    .location_details{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .hostAndrate_Container {
+       flex-direction: column;
+       align-content: flex-end;
+       align-items: flex-end;
+       }
+
+    .apartment_title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .apartment_tags {
+        width: 120px;
+        height: 25px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    .collapse_container {
+        width: 100%;
+    }
+    .apartment_collapse {
+        width: 47.5%;
+    }
+
+    /* .apartment_collapse_about {
+        width: 100%;
+    } */
+}
+
+/* ------fin desktop ------- */

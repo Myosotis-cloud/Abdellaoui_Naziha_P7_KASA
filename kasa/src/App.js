@@ -1,14 +1,12 @@
-import { Routes, Route } from "react-router-dom"
-import { createGlobalStyle } from 'styled-components'
-import Home from './Components/Home/index.jsx'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Home from '../src/Pages/Home/index.jsx'
 import Header from './Components/Header/index.jsx'
 import Error from './Components/Error/index.jsx'
-// import React from 'react'
 import Footer from './Components/Footer/index.jsx'
-import Charte from './Components/Charte/index.jsx'
-import Apartments from "./Components/Apartments/index.jsx"
+import Apropos from '../src/Pages/Apropos/index.jsx'
+import Apartments from "../src/Pages/Apartments/index.jsx"
 import './App.css'
-// import './index.css'
+import React from 'react'
 
 /* header présent sur toutes les pages et inchangé*/
 /* Home : page d'accueil-affichage toutes les cartes de location */
@@ -22,29 +20,22 @@ import './App.css'
         - caroussel d'images
         - dropdown (collapses)
 */
-const StyledGlobalStyle = createGlobalStyle`
-    * {
-      margin: 0;
-      padding:0;
-    }
-    body {
-        margin: 0;
-        padding: 0;
-    }
-`
+
+    
 function App () {
     return (
-        <div className="Layout">
-          <StyledGlobalStyle />
+       
+          <Router>
             <Header />
               <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/apartments" element={<Apartments />} />
-                <Route path="/charte" element={<Charte />} />
-                <Route path="/apartments/*" element={<Error />} />
+                <Route path="/apartments/:idApartment" element={<Apartments />} />
+                <Route path="/about" element={<Apropos />} />
+                <Route path="*" element={<Error />} />
               </Routes>
-            <Footer />
-        </div>
+             <Footer />
+          </Router>
+        
     )
 }
 
