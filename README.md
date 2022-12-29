@@ -1,4 +1,5 @@
-# Abdellaoui_Naziha_P7_KASA
+# Initialisation du projet avec Create React App
+
 Application web de location immobilière avec React
 
 A renting apartment's web site app with React
@@ -25,3 +26,4 @@ npm run build
 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 ************************************************************************************************
+
