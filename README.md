@@ -26,4 +26,14 @@ npm run build
 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 ************************************************************************************************
+Un projet initialisé avec CRA possède toujours :
+- index.html dans le dossier Publlic : template où vivra notre app React
+- package.json : liste les dépendances et les scripts
+- index.js : l'app React est initialisée et gréffée au HTML
+- node_modules : contient tous les modules et dépendances installés.
+- src : il contient tous nos composants. Il représente l'essentiel des fichiers crées et modifiés
+**************************************************************************************************
+Modules installés :
+- ESLint : signale des erreurs dans le code
+- Prettier : formate le code (installé via la commande yarn add -D prettier ou l'extension "Prettier" dans VSC
 
