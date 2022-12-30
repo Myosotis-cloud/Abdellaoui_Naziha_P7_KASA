@@ -6,7 +6,7 @@ import React from 'react'
 // composant enfant=Collapse - composant parent= Apropos
 export default function Collapse({ label,text, withWrap }){
 
-    console.log(text);
+    // console.log(text);
     const [isOpen, setIsOpen] = useState(false)
     const handleClick = () => setIsOpen(!isOpen)
    

@@ -4,7 +4,7 @@ import FullyStar from "../../assets/logements/full_star.png"
 import './style-rating.css'
 
 export default function Rating(rate) {
-    console.log(rate); // rate = number of Coloured stars
+    // console.log(rate); // rate = number of Coloured stars
 
     const range = [1, 2, 3, 4, 5];
     

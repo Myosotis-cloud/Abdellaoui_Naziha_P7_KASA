@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import {ReactComponent as LogoMobile} from '../../assets/header/LOGOMobile.svg'
 import {ReactComponent as LogoDesktop} from '../../assets/header/LOGODesktop.svg'
 import React from 'react'
-import "./style-Header.css"
+import "./style-header.css"
 
 
 export default function Header() {

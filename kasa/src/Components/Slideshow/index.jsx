@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 export default function Slideshow({photosArray}){
 
-    console.log(photosArray)
+    // console.log(photosArray)
     const numberOfphotos = photosArray.length
     // console.log(numberOfphotos)
     const firstPhoto = photosArray[0]
