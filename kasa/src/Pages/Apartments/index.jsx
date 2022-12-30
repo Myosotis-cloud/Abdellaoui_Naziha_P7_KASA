@@ -21,7 +21,6 @@ export default function Apartments (){
 
     const { idApartment } = useParams();
     const apartment = getApartmentById(idApartment);
-    console.log("test");
 
             return  (
                 <div>

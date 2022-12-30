@@ -20,11 +20,9 @@ import React from 'react'
         - caroussel d'images
         - dropdown (collapses)
 */
-
-    
+   
 function App () {
     return (
-       
           <Router>
             <Header />
               <Routes>
@@ -35,7 +33,6 @@ function App () {
               </Routes>
              <Footer />
           </Router>
-        
     )
 }
 

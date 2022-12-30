@@ -17,6 +17,7 @@
     list-style-type: none;
     margin-top: 20px;
     padding: 0;
+    gap: 10px;
 }
 
 .apartment_tags {
@@ -98,7 +99,6 @@
 
 /* -------------------Desktop ------------------- */
 @media screen and (min-width:768px){
-   
 
     .photo_hote {
         width: 64px;
@@ -137,10 +137,6 @@
     .apartment_collapse {
         width: 47.5%;
     }
-
-    /* .apartment_collapse_about {
-        width: 100%;
-    } */
 }
 
 /* ------fin desktop ------- */

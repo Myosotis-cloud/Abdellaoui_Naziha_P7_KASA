@@ -4,18 +4,21 @@ import { useState } from 'react'
 
 
 export default function Slideshow({photosArray}){
+
     console.log(photosArray)
     const numberOfphotos = photosArray.length
+    // console.log(numberOfphotos)
     const firstPhoto = photosArray[0]
-    console.log(firstPhoto)
+    // console.log(firstPhoto)
     const lastPhoto = photosArray[numberOfphotos-1]
-    console.log(lastPhoto)
+    // console.log(lastPhoto)
+
     const [actualPhoto, setActualPhoto] = useState(firstPhoto)
-    console.log(actualPhoto)
+    // console.log(actualPhoto)
 
     const previousPhoto = function (actualPhoto) {
         if (actualPhoto === firstPhoto) {
-            console.log(actualPhoto)
+            // console.log(actualPhoto)
             setActualPhoto(lastPhoto)
         } else {
             const actualPhotoIndex = photosArray.indexOf(actualPhoto)
@@ -27,6 +30,7 @@ export default function Slideshow({photosArray}){
             setActualPhoto(firstPhoto)
         } else {
             const actualPhotoIndex = photosArray.indexOf(actualPhoto)
+            // console.log(actualPhotoIndex)
             setActualPhoto(photosArray[actualPhotoIndex + 1])
         }
     }    

@@ -20,25 +20,3 @@ export default function Rating(rate) {
         </div>
     )
 }
-
-
-
-// const rateMax = 5; // max of stars
-    // const numberOfGrayStars = Number(rateMax - rate) // number of stars non colored (gray)
-    // let starsArray = [];
-
-    // for (let i = 0; i < rate; i++) {
-    //     starsArray.push(<i className="fa-solid fa-star coloredStars"></i>)
-    // }
-    // for(let i = 0; i < numberOfGrayStars; i++) {
-    //     console.log(numberOfGrayStars);
-    //     starsArray.push(<i className="fa-solid fa-star grayStars"></i>)
-    // }
-
-    // console.log(starsArray);
-    // return (
-
-    //     <div className='starsContainer'>
-    //         {starsArray}
-    //     </div>
-    // )
